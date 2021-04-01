@@ -1,0 +1,12 @@
+*__pycache__*
+.vscode
+*saved_models/
+debug.py
+tempCodeRunnerFile.py
+data
+debug*.py
+librispeech-lexicon.txt
+english.dict.txt
+synthesizer/preprocess_old.py
+test_data/*
+synthesizer/inference_copy.py
