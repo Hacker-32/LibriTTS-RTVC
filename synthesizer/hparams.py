@@ -103,7 +103,7 @@ hparams = HParams(
     # clips the gradient norm to prevent explosion - set to None if not needed
     tts_clip_grad_norm=1.0,
     # Number of steps between model evaluation (sample generation)
-    tts_eval_interval=400,
+    tts_eval_interval=500,
     # Set to -1 to generate after completing epoch, or 0 to disable
 
     tts_eval_num_samples=3,                   # Makes this number of samples
@@ -150,7 +150,7 @@ hparams = HParams(
     weight_decay=1e-6,
     grad_clip_thresh=1.0,
     eps=1e-6,
-    batch_size=2,
+    batch_size=16,
     mask_padding=True,  # set model's padded outputs to padded values
     lambda_dur=2,
     n_warm_up_step=4000,
